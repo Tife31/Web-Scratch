@@ -4,7 +4,7 @@ body{
     justify-content: space-between;
     margin: 0;
 }
-.header{
+.header,.footer{
     background-color: #1F2937;
 
     padding-left: 50px;
@@ -60,6 +60,56 @@ li.logo{
 }
 .center_div{
     text-align: center;
-    padding:50px;
+    padding-left:50px;
+    padding-right:50px;
 }
 
+h5{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 10px;
+}
+
+.quote_section{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    
+}
+.quote{
+    text-align: center;
+}
+.autor{
+    text-align: right;
+}
+.footer{
+    text-align: center;
+    color: #E5E7EB;
+    padding: 0;
+
+}
+.signup-button.board{
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-style: solid ;
+    padding-top: 0;
+    padding-bottom:0 ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last_section{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    background-color: #3882F6;
+    margin: 30px;
+    padding: 20px 40px;
+    border-radius: 12px;
+}

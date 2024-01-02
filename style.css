@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+.header{
+    background-color: #1F2937;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+.textHeader{
+    font-size: 48px;
+    font-weight: 900;
+   color: #F9FAF8;
+}
+.headerSubtext{
+    font-size: 18px;
+   color: #E5E7EB;
+}
+
+.signup-button{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 5px 18px;
+    border-radius: 12px;
+    border: 0;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+   color: #E5E7EB;
+   padding: 0;
+  
+}
+li.logo{
+    margin-right: auto;
+}
+.contained{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
